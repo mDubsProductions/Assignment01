@@ -1,0 +1,18 @@
+//Sass Variables
+$background: #333;
+$basefont: "Areial" san-serif;
+$accent: orange;
+$margin: 10px;
+$padding: 10px;
+
+body{
+    background: $background;
+    font-family: $basefont;
+    color: white;
+    margin: $margin;
+    padding: $padding;
+}
+
+footer{
+    background: $accent;
+}
