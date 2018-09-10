@@ -2,15 +2,29 @@
 $background: #333;
 $basefont: "Areial" san-serif;
 $accent: orange;
+$color: darken(orange, 15%);
+$backup: saturate(orange, 20%);
 $margin: 10px;
 $padding: 10px;
 
 body{
     background: $background;
-    font-family: $basefont;
     color: white;
     margin: $margin;
     padding: $padding;
+    font{
+        family: $basefont;
+        size: 1em;
+        style:oblique;
+    }
+}
+
+h1{
+    background: $backup;
+}
+
+h2{
+    background: $color;
 }
 
 footer{

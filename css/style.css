@@ -1,9 +1,21 @@
 body {
   background: #333;
-  font-family: "Areial" san-serif;
   color: white;
   margin: 10px;
   padding: 10px;
+}
+body font {
+  family: "Areial" san-serif;
+  size: 1em;
+  style: oblique;
+}
+
+h1 {
+  background: orange;
+}
+
+h2 {
+  background: #b37400;
 }
 
 footer {
