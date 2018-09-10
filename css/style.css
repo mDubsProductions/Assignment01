@@ -1,3 +1,15 @@
+.float, ul li {
+  float: left;
+  width: 50px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.textAlign, h1, body {
+  text-align: center;
+}
+
 body {
   background: #333;
   color: white;
@@ -12,14 +24,41 @@ body font {
 
 h1 {
   background: orange;
+  width: 350px;
 }
 
 h2 {
   background: #b37400;
+  width: 350px;
+}
+
+img {
+  float: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a:link {
+  color: blue;
+}
+
+ul li a:visited {
+  color: white;
+}
+
+ul li a:hover {
+  color: lime;
+}
+
+ul li a:active {
+  color: pink;
 }
 
 footer {
   background: orange;
+  width: 350px;
 }
 
 /*# sourceMappingURL=style.css.map */
